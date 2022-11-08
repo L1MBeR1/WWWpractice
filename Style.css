@@ -37,12 +37,14 @@ footer{
     width: 400px;
 }
 .footerText{
-    font-size: 15pt; 
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 16) + 16px);
+    /* font-size: 15pt;  */
     color:#2580B3;
 }
 .footerText2{
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (25 - 21) + 21px);
     font-weight: bold;
-    font-size: 20pt; 
+    /* font-size: 20pt;  */
     color:#2580B3;  
 }
 #logo{
@@ -118,7 +120,7 @@ margin: 10px;
     background-image: url("Resoursec/Pictures/back3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: calc( (100vw - 480px)/(1280 - 480) * (950 - 640) + 400px);;
+    height: calc( (100vw - 480px)/(1280 - 480) * (950 - 640) + 400px);
     box-shadow: 0px 7px 12px rgba(0,0,0,0.3);
     border-color:#90bf84;
     border-bottom-style: solid;
@@ -182,7 +184,11 @@ max-width: 40%;
     margin-bottom: 4%;
 }
 #Dtext{
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 16) + 16px);
     text-align:justify;
+}
+li{
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 16) + 16px);
 }
 p{
     font-size: 18pt;
@@ -192,7 +198,8 @@ p{
 h2 {
     margin-top: 23px;
     margin-bottom: 15px;
-    font-size: 25pt;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (25 - 21) + 21px);
+    /* font-size: 25pt; */
     font-family: 'Noto Sans', sans-serif;
     color: #1c5779;
 }
@@ -265,6 +272,7 @@ ul{
 }
 .PersonH2{
     margin-top: 15px;
+    padding: 8px;
     text-align:center;
     color:#1c5779;
 }
@@ -283,7 +291,7 @@ ul{
     flex-direction: row;
 }
 .Photo{
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding: 30px;
 }
 .PerPhoto{
@@ -294,7 +302,8 @@ ul{
     padding: 10px;
     /* margin-top: 150px; */
     text-align:center;
-    font-size: 23pt;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (25 - 21) + 21px);
+    /* font-size: 23pt; */
     font-family: 'Noto Sans', sans-serif;
     color: #1c5779;
 }
@@ -303,9 +312,10 @@ ul{
     flex-direction:column;
 }
 #Quote{
-    padding: 8%;
+    padding: 25px;
     text-align:justify;
-    font-size: 18pt;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (20 - 16) + 16px);
+    /* font-size: 18pt; */
     font-family: 'Noto Sans', sans-serif;
     color: #2580B3;
 }
