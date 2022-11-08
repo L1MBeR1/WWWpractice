@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header{
+    /* display: flex;
+    justify-content:left;
+    align-items: flex-start;
+    flex-wrap:wrap; */
+	width: auto;
+	background: #eef0f1;
+	height: auto;
+    /* position: fixed; */
+    margin: 0px;
+  padding: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+}
+footer{
+    
+    padding: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+    border-top-color:#90bf84;
+    width: auto;
+    height: auto;
+    background: #eef0f1;
+    border-top-style: solid;
+    border-top-width: 5px;
+}
+.footerBlock{
+    width: 400px;
+}
+.footerText{
+    font-size: 15pt; 
+    color:#2580B3;
+}
+.footerText2{
+    font-weight: bold;
+    font-size: 20pt; 
+    color:#2580B3;  
+}
+#logo{
+ margin-top: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    padding: 0;
+
+ 
+    float: left;
+
+}
+#logoPic{
+    padding-top: 5px;
+    width: auto;
+}
+
+#logoText{
+    width: 200px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    padding: 5px;
+}
+body{
+     margin: 0px;
+     /* background-color: #eef0f1; */
+     background-image: url("Resoursec/Pictures/background.png");
+
+}
+.HeaderButton{
+margin: 10px;
+    /* margin-left:10px; */
+    border-radius:40px;
+    border-style: solid;
+    border-color: #00014b;
+    border-width: 2.5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.HeaderButtons{
+     /* flex-grow: 1;  */
+     /* padding-right: 100px; */
+    width: auto;
+    /* padding-top: 20px; */
+   justify-content:space-evenly;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: center;
+    align-content: center;
+}
+.HeaderButtonText{
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #00014b; 
+}
+.mainTop{
+    
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    /* margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30; */
+    margin-bottom: 4%;
+    /* background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%); */
+    background-image: url("Resoursec/Pictures/back3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc( (100vw - 480px)/(1280 - 480) * (950 - 640) + 400px);;
+    box-shadow: 0px 7px 12px rgba(0,0,0,0.3);
+    border-color:#90bf84;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+
+    /* border-radius: 0px 0px 60px 60px */
+}
+.InfoBlock{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-bottom: 4%;
+    
+}
+
+#TopText{
+    text-align:justify;
+min-width: 300px;
+padding-top: 9%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+max-width: 40%;
+
+}
+.TopT{
+    text-align:left;
+
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    color:#ffffff;
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 25) + 25px);
+}
+.Block1-1{
+    background-color: #eef0f1;
+    text-align:justify;
+    flex-grow: 1;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+    border-radius:30px;
+    border-style: solid;
+    border-color: #90bf84;
+    border-width: 5px;
+    margin-bottom: 4%;
+}
+.Block2-3 {
+
+    background-color: #eef0f1;
+    flex-grow: 1; 
+    padding: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius:30px;
+    border-style: solid;;
+    border-color:#90bf84;
+    border-width: 5px;
+    margin-bottom: 4%;
+}
+#Dtext{
+    text-align:justify;
+}
+p{
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2580B3;
+}
+h2 {
+    margin-top: 23px;
+    margin-bottom: 15px;
+    font-size: 25pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1c5779;
+}
+.DefText{
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2580B3;
+}
+ol{
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2580B3; 
+}
+ul{
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2580B3; 
+}
+.EXe{
+    border-color:#90bf84;
+    border-top-style: solid;
+    border-top-width: 5px;
+    /* padding-left: 6.5%;
+    padding-right: 6.5%; */
+    padding-bottom: 6.5%;
+    /* border-radius:30px;
+    border-style: solid;;
+    border-color:#CBBACC;
+    border-width: 5px; */
+    background-image: linear-gradient(-225deg, #3f5537 0%, #8baf79 100%);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction:column;
+    
+    /* margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-bottom: 4%;  */
+    margin: 0;
+}
+.H2Div{
+    /* flex-grow: 1;  */
+    /* max-width: fit-content; */
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:3%;
+    padding: 5px;
+    margin-top: 4%;
+    border-radius:30px;
+    border-style: solid;
+    border-color: #90bf84;
+    border-width: 5px;
+    background-color: #eef0f1;
+    width: auto;
+    align-content: center;
+}
+.Person{
+    margin-left: 10%;
+    margin-right:10%;
+    border-radius:30px;
+    border-style: solid;
+    border-color: #90bf84;
+    border-width: 5px;
+    background-color: #eef0f1;
+    margin-top: 30px;
+    /* background-image: linear-gradient(-225deg, #3f5537 0%, #8baf79 100%); */
+    border-radius:30px;
+    
+}
+.PersonH2{
+    margin-top: 15px;
+    text-align:center;
+    color:#1c5779;
+}
+.PaT{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: row;
+}
+.PRow1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    
+    flex-direction: row;
+}
+.Photo{
+    margin-top: 30px;
+    padding: 30px;
+}
+.PerPhoto{
+    border-radius: 135px;
+    border: 5px #90bf84 solid;
+}
+#Name{
+    padding: 10px;
+    /* margin-top: 150px; */
+    text-align:center;
+    font-size: 23pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #1c5779;
+}
+#F{
+    display: flex;
+    flex-direction:column;
+}
+#Quote{
+    padding: 8%;
+    text-align:justify;
+    font-size: 18pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #2580B3;
+}
+
+#Info{
+    margin-left: 4%;
+    margin-right: 4%;
+    /* display: flex;
+    flex-direction:column;  */
+}
+.NameB{
+    justify-content: space-around;
+    vertical-align:middle;
+    display: flex;
+    flex-direction:column; 
+}
+.QuoteB{
+    padding: 10;
+    display: flex;
+    flex-direction:column; 
+}
+.headerText1{
+    float:left;
+    margin-block-start:0;
+    margin-block-end:0;
+
+    font-size: 10pt;
+    font-family: 'Noto Sans', sans-serif;
+    color: #00014b;
+}
