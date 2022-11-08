@@ -155,7 +155,7 @@ max-width: 40%;
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     color:#ffffff;
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 25) + 25px);
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 22) + 22px);
 }
 .Block1-1{
     background-color: #eef0f1;
