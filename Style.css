@@ -45,7 +45,7 @@ footer{
     font-size: calc( (100vw - 480px)/(1280 - 480) * (25 - 21) + 21px);
     font-weight: bold;
     /* font-size: 20pt;  */
-    color:#2580B3;  
+    color:#1c5779;  
 }
 #logo{
  margin-top: 0;
