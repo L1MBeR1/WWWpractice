@@ -142,7 +142,7 @@ margin: 10px;
 
 #TopText{
     text-align:justify;
-min-width: 300px;
+min-width: 250px;
 padding-top: 9%;
     margin-bottom: 5%;
     margin-left: 10%;
@@ -155,7 +155,7 @@ max-width: 40%;
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     color:#ffffff;
-    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 22) + 22px);
+    font-size: calc( (100vw - 480px)/(1280 - 480) * (40 - 20) + 20px);
 }
 .Block1-1{
     background-color: #eef0f1;
@@ -295,7 +295,8 @@ ul{
     padding: 30px;
 }
 .PerPhoto{
-    border-radius: 135px;
+    width: calc( (100vw - 480px)/(1280 - 480) * (270 - 200) + 200px);;
+    border-radius: 200px;
     border: 5px #90bf84 solid;
 }
 #Name{
